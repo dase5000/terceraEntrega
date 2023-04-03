@@ -1,0 +1,50 @@
+footer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    background-image: linear-gradient(black, grey);
+    padding: 20px;
+    .contact-info {
+        padding: 10px;
+        :hover{
+            transform: translate(2px, 3px);
+        }
+        .TitFoot{
+            color: white;
+        }
+        .Datos{
+            color: white;
+            line-height: 10px;
+        }
+    }
+    .social-media{
+        .TitFoot{
+            color: white;
+        }
+        .miniRed{
+            display: flex;
+            flex-direction: row;
+            width: 51px;
+            height: 51px;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 50px;
+            padding: 1px;
+            transition: transform 2s;
+        }
+        .miniRed{
+            :hover{
+                transform: translate(3px, 3px);
+            }
+        }   
+    }
+    .map{
+        .TitFoot{
+            color: white;
+        }
+        .map-container {
+            height: 300px;
+        }        
+    }
+}

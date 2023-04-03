@@ -1,0 +1,5 @@
+@mixin borde($tipo, $color, $width){
+    border-style: $tipo;
+    border-color: $color;
+    border-width: $width;
+}
